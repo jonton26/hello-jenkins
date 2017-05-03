@@ -5,5 +5,7 @@ ssh app@188.226.144.168 <<EOF
   git pull
   npm install --production
   forever start app.js
+  cd test
+  robot test.robot
 exit   
 EOF
