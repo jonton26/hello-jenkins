@@ -11,6 +11,6 @@ Create Headless Browser
     Set Window Size    1920    1080
   #  ${title}=    Get Title
     #Should Be Equal    Google    {title}
-    Wait Until Page Contains    jenkins~
+    Wait Until Page Contains    jenkins~~
     #Wait Until Page Contains   "hello"
     [Teardown]    Close Browser
