@@ -5,5 +5,5 @@ ssh app@188.226.144.168 <<EOF
   git pull
   npm install --production
   node app.js
-exit
+exit   
 EOF
