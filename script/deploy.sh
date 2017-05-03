@@ -5,5 +5,5 @@
   git pull
   npm install --production
   forever restartall
-  exit
+exit
 #EOF
