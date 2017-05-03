@@ -9,7 +9,8 @@ Create Headless Browser
     Open Browser   http://google.com
 #    Open Browser   http://localhost:5000
     Set Window Size    1920    1080
-    ${title}=    Get Title
-    Should Be Equal    Google    {title}
+  #  ${title}=    Get Title
+    #Should Be Equal    Google    {title}
+    Wait Until Page Contains    Google
     #Wait Until Page Contains   "hello"
     [Teardown]    Close Browser
